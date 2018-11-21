@@ -23,6 +23,26 @@
         <label for="name">Nr telefonu</label>
         <input type="tel" name="tel" id="tel" placeholder="Podaj nr telefonu?">
         <br>
+        
+        <label for="city">Wybierz miasto:</label>
+        <select name="city" id="city">
+            <option value="krakow">Kraków</option>
+            <option value="warszawa">Warszawa</option>
+            <option value="gdansk">Gdańsk</option>    
+        </select>
+        
+        <p>Wybierz płeć</p>
+        <input type="radio" name="gender" id="male" value="male"><label for="male">Mężczyzna</label><br>
+        <input type="radio" name="gender" id="female" value="female"><label for="female">Kobieta</label><br>
+        
+        <input type="checkbox" name="zgoda" id="zgoda" value="mzgoda"><label for="zgoda">Wyrażam zgodę na przetwarzanie danych osobowych na potrzeby tego formularza</label><br>
+        
+        <label for="message">Wiadomość: </label>
+        <textarea name="message" id="message" placeholder="Wpisz wiadomość"></textarea>
+        <br>
+        
+        <input type="submit" name="send" id="send" value="Wyślij">
+        
    
      </form>
 </body>

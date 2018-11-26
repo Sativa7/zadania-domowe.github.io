@@ -12,6 +12,7 @@
 @media (min-width: 1170px) {
     #frontend {
         color: #fff;
+        padding-left: 50px;
     }
 }
 

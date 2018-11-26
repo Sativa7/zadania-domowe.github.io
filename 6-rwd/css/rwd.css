@@ -1,8 +1,3 @@
-#sekcja-header {
-    width: 100%;
-    height: 100vh;
-}
-
 
 /* 
 *   POWYŻEJ 1170px
@@ -10,9 +5,14 @@
 */
 
 @media (min-width: 1170px) {
+    #sekcja-header {
+    width: 100%;
+    height: 100vh;
+        padding-left: 50px;
+    
+}
     #frontend {
         color: #fff;
-        padding-left: 50px;
     }
 }
 

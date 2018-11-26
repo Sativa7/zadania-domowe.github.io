@@ -1,15 +1,13 @@
-
 #sekcja-header {
     display: flex;
-    height: 100vh;
     background-image: url(../img/man-1.jpg);
     background-size: cover;
     align-items: center;
     text-transform: uppercase;
+    font-family: 'Verdana', sans-serif;
 }
 
 #frontend {
-    font-family: 'Verdana', sans-serif;
     font-size: 2em;
     color: #fff;
 }

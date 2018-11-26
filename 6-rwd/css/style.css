@@ -5,6 +5,7 @@
     align-items: center;
     text-transform: uppercase;
     font-family: 'Verdana', sans-serif;
+    overflow: hidden;
 }
 
 #frontend {

@@ -1,0 +1,44 @@
+p.teksty {
+    color: white;
+    text-transform: uppercase;
+    font-size: 28px;
+    margin: 0;
+}
+
+#container {
+    display: flex;
+    
+}
+
+#header {
+    background-color: red;
+    text-align: center;
+    height: 10vh;
+}
+
+#section {
+    background-color: deepskyblue;
+    height: 40vh;
+    flex-basis: 50%;
+    text-align: center;
+}
+
+#right {
+    background-color: pink;
+    height: 40vh;
+    flex-grow: 1;
+}
+
+#aleft {
+    background-color: green;
+    height: 40vh;
+    text-align: center;
+    flex-grow: 1;
+}
+
+
+#footer {
+    background-color: mediumpurple;
+    height: 10vh;
+    text-align: center;
+}

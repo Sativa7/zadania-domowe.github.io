@@ -1,0 +1,48 @@
+@media (max-width:768px) {
+    #container {
+        flex-wrap: wrap;
+    }
+
+    #aleft {
+        flex-basis: 100%;
+    }
+
+    #section {
+        flex-basis: 100%;
+    }
+    #right {
+        flex-basis: 100%;
+        order: 1;
+    }
+}
+
+
+
+
+
+@media (min-width:768px) and (max-width:992px) {
+    #container {
+        flex-wrap: wrap;
+    }
+
+    #aleft {
+        flex-basis: 100%;
+        order: 1;
+    }
+
+    #section {
+        flex-basis: 75%;
+    }
+}
+
+ 
+
+    
+    @media(min-width:992px) {
+        #right {
+            order: 1;
+        }
+        #section {
+            order: 1;
+        }
+    }

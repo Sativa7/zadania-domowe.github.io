@@ -1,0 +1,15 @@
+#kwadrat {
+   height: 200px;
+   width: 200px;
+   background-color: red;
+   color: white;
+   font-size: 20px;
+   position: absolute;
+   text-align: center;
+}
+
+h2 {
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   font-size: 15px;
+   font-weight: 100;
+}

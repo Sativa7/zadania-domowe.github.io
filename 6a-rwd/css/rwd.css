@@ -1,0 +1,54 @@
+#sekcja-header {
+    width: 100%;
+    height: 100vh;
+}
+
+
+/* 
+*   POWYŻEJ 1170px
+*
+*/
+
+@media (min-width: 1170px) {
+    #frontend {
+        color: #fff;
+    }
+}
+
+
+/* 
+*   POMIĘDZY 992px A 1170px
+*
+*/
+
+
+@media (min-width: 992px) and (max-width: 1170px) {
+    #sekcja-header {
+        background-image: url(../img/man-2.jpg);
+        height: 70vh;
+        justify-content: flex-end;
+        align-items: flex-start;
+        padding-right: 50px;
+        padding-top: 50px;
+    }
+}
+
+/* 
+*   PONIŹEJ 992px
+*
+*/
+
+@media (max-width: 992px) {
+    #sekcja-header {
+        width: 100%;
+        height: 50vh;
+        justify-content: center;
+    }
+
+    #frontend {
+        color: #000;
+        position: relative;
+        top: 51vh;
+        text-align: center;
+    }
+}
